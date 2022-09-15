@@ -5,8 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+
+        }
+        .displaybox{
+            display: flex;
+        }
+        .btn{
+            font-size: 3rem;
+             font-weight:bolder ;
+             border: 2em;
+             padding: 2em;
+        }
+        .display{
+            width: 70%;
+            min-height:400px;
+            font-size: 5rem;
+            background: aquamarine;
+            color:white;
+
+        }
+    </style>
 </head>
 <body>
-    hello world 
+    <div class="container">
+        <div class="input">
+            <input type="text" placeholder="enter a string ">
+            <button>submit</button>
+        </div>
+        <div class="displaybox">
+            <div class="btn">></div>
+            <div class="display"></div>
+            </div>
+            <div class="btn">></div>
+        </div>
+    </div>
 </body>
 </html>
