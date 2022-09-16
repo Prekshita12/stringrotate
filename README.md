@@ -1,1 +1,2 @@
-#  *$tring Rotation Program*
+#  *Program to rotate a $tring*
+
